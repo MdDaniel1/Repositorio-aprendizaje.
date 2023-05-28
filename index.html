@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador De Texto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Instrument+Serif&family=Lora:ital@1&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1 class="title">Encriptador</h1>
+        </div>
+    </header>
+        <main>
+            <div class="container" >
+                <section class="written-msj">
+                    <textarea class="text" cols="30" rows="10" placeholder="Ingrese el texto aqui" id="input-text" ></textarea>
+                </section>
+            <div class="rules">
+                <h6 class="information">➼Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="button">
+                <button class="btn-encrypt" type="button" onclick="encrypt" id="btn-encrypt">Encriptar</button>
+                <button class="btn-decrypt"type="button" onclick="decrypt" id="btn-decrypt">Desencriptar</button>
+            </div>
+            <div class="encoded">
+                <div class="msj-encript" id="msj-encript">
+                    <img src="images/Muñeco.png" alt="">
+                    <h2 id="title-msj">No hay mensajes encriptados</h2>
+                    <p id="enter" >Ingresa el texto que deseas encriptar o desencriptar.</p>
+                    <textarea name="msj-encoded" id="output-text" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container-footer">
+            <span>© 2023 - Daniel David Martinez Perez</span>
+            <div class="social-icons">
+                <a href="https://github.com/MdDaniel1/Repositorio-aprendizaje." target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-martinez-perez-a174441b8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            </div>
+        </footer>          
+        <script src="javaScript/java.js"></script>
+</body>
+</html>
