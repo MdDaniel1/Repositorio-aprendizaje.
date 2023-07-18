@@ -4,6 +4,10 @@ Primer proyecto alura latam en colaboracion con oracle next education.
 
 Es una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
+<p align="center" >
+     <img width="600" heigth="600" src="./images/Encriptador-de-texto.png">
+</p>
+
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 La letra "e" es convertida para "enter"
